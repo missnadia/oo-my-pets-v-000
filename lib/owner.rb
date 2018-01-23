@@ -53,7 +53,7 @@ class Owner
 
   def sell_pets
     pets.each { |species, animals| animals.each { |animal| animal.mood = "nervous" }}
-      animals.clear
+    animals.clear
   end
 
   def say_species
