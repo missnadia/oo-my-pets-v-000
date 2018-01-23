@@ -1,7 +1,7 @@
 class Owner
-  OWNERS = []
   attr_accessor :name, :pets
   attr_reader :species
+  OWNERS = []
 
   def self.reset_all
     OWNERS.clear
